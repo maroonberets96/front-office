@@ -1,0 +1,19 @@
+# Live records: never commit
+data/
+receipts/
+banking/
+keys/
+backups/
+archive/
+source/imports/
+
+# Build output and branding
+*.exe
+*.exe.old
+source/logo.png
+source/app.ico
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
