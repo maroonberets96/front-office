@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121214"/>
+      <stop offset="1" stop-color="#22222b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" rx="16" fill="#18181c"/>
+  <rect width="1280" height="320" rx="16" fill="url(#bg)"/>
+  <g font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">
+    <text x="80" y="118" font-size="64" font-weight="700" fill="#f5f5f7">Front Office</text>
+    <text x="82" y="164" font-size="22" fill="#9a9aa5">The front desk on one touch screen: cash, receipts, keys, post and visitors,</text>
+    <text x="82" y="194" font-size="22" fill="#9a9aa5">with a PIN on every action and an audit trail you can't quietly edit.</text>
+
+    <g font-size="18" font-weight="600" fill="#ffffff">
+      <rect x="80"  y="232" width="88"  height="36" rx="18" fill="#4f7cf3"/><text x="124"   y="256" text-anchor="middle">Home</text>
+      <rect x="182" y="232" width="121" height="36" rx="18" fill="#00adb5"/><text x="242.5" y="256" text-anchor="middle">Laundry</text>
+      <rect x="317" y="232" width="88"  height="36" rx="18" fill="#22a45d"/><text x="361"   y="256" text-anchor="middle">Rent</text>
+      <rect x="419" y="232" width="110" height="36" rx="18" fill="#f0a13c"/><text x="474"   y="256" text-anchor="middle">Drawer</text>
+      <rect x="543" y="232" width="88"  height="36" rx="18" fill="#ff5722"/><text x="587"   y="256" text-anchor="middle">Keys</text>
+      <rect x="645" y="232" width="88"  height="36" rx="18" fill="#8b6cf0"/><text x="689"   y="256" text-anchor="middle">Post</text>
+      <rect x="747" y="232" width="132" height="36" rx="18" fill="#e0529c"/><text x="813"   y="256" text-anchor="middle">Visitors</text>
+    </g>
+
+    <!-- Home-screen tiles, in miniature -->
+    <g>
+      <rect x="960" y="56" width="124" height="96" rx="8" fill="#1e1e24"/>
+      <rect x="960" y="56" width="124" height="4" fill="#00adb5"/>
+      <text x="976" y="88" font-size="13" fill="#9a9aa5">Takings today</text>
+      <text x="976" y="128" font-size="28" font-weight="700" fill="#f5f5f7">£42.50</text>
+
+      <rect x="1100" y="56" width="124" height="96" rx="8" fill="#1e1e24"/>
+      <rect x="1100" y="56" width="124" height="4" fill="#22a45d"/>
+      <text x="1116" y="88" font-size="13" fill="#9a9aa5">Awaiting check</text>
+      <text x="1116" y="128" font-size="28" font-weight="700" fill="#f5f5f7">3</text>
+
+      <rect x="960" y="168" width="124" height="96" rx="8" fill="#1e1e24"/>
+      <rect x="960" y="168" width="124" height="4" fill="#ff5722"/>
+      <text x="976" y="200" font-size="13" fill="#9a9aa5">Keys out now</text>
+      <text x="976" y="240" font-size="28" font-weight="700" fill="#f5f5f7">7</text>
+
+      <rect x="1100" y="168" width="124" height="96" rx="8" fill="#1e1e24"/>
+      <rect x="1100" y="168" width="124" height="4" fill="#e0529c"/>
+      <text x="1116" y="200" font-size="13" fill="#9a9aa5">Signed in</text>
+      <text x="1116" y="240" font-size="28" font-weight="700" fill="#f5f5f7">2</text>
+    </g>
+  </g>
+</svg>
